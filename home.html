@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+  </head>
+  <body>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script> -->
+    <nav class="navbar navbar-expand "style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <div class="container1">
+    <a class="navbar-brand" href="#">
+      <img src="https://i.ibb.co/cNxtRXx/h-l-removebg-preview.png" alt="h-l-removebg-preview"  width="185" height="102">
+    </a>
+  </div>
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li> -->
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Find Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Company reviews</a>
+        </li>
+      </ul>
+</div>
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <!-- create a login button with dropdown options candidate , prospect manager , recruiter-->
+    <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Login
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Candidate</a></li>
+      <li><a class="dropdown-item" href="#">Prospect Manager</a></li>
+      <li><a class="dropdown-item" href="#">Recruiter</a></li>
+    </ul>
+  </div>
+  <!-- create a signup button with dropdown options candidate , prospect manager , recruiter-->
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Signup
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Candidate</a></li>
+      <li><a class="dropdown-item" href="#">Prospect Manager</a></li>
+      <li><a class="dropdown-item" href="#">Recruiter</a></li>
+    </ul>
+  </div>
+    <button class="btn btn-primary me-md-2" type="button">Login</button>
+    <button class="btn btn-primary" type="button">Signup</button>
+    </div>
+  </div>
+</nav>
+    <div class="container-fluid1">
+        
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <!-- create a dropdown list -->
+    <select class="form-select" aria-label="Default select example" >
+    <option selected>Select Experience</option>
+    <option value="1">1+ years</option>
+    <option value="2">2+ years</option>
+    <option value="3">3+ years</option>
+    </select>
+    <!-- create a search input with suggestion box-->
+    
+    <!-- create a dropdown list -->
+    <select class="form-select" aria-label="Default select example" >
+    <option selected>Select Job Type</option>
+    <option value="1">Full Time</option>
+    <option value="2">Part Time</option>
+    <option value="3">Internship</option>
+    </select>
+        <button class="btn btn-outline-dark" type="submit">Search</button>
+      </form>
+    </div>
+    <!-- create a 6 buttons in horizontal order -->
+    <div class="container-fluid2">
+      <div class="row">
+        <div class="col-sm">
+          <button type="button" class="btn btn-outline-dark">Software</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-outline-dark">Engineering</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-outline-dark">Supply Chain</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-outline-dark">Marketing</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-outline-dark">Project Manager</button>
+        </div>
+      </div>
+    </div>
+    <h2 class = "text"align="center">Top Hiring Companies</h2>
+    <!-- card groups -->
+    <!-- <div class="card-group5">
+
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="card-group">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
+
+
+
